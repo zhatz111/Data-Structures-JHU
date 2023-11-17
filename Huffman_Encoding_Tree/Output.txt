@@ -1,0 +1,64 @@
+
+Huffman Tree Information (based on FreqTable.txt)
+------------------------
+Frequency Table Provided: A: 19, B: 16, C: 17, D: 11, E: 42, F: 12, G: 14, H: 17, I: 16, J: 5, K: 10, L: 20, M: 19, N: 24, O: 18, P: 13, Q: 1, R: 25, S: 35, T: 25, U: 15, V: 5, W: 21, X: 2, Y: 8, Z: 3
+
+The tree in preorder is: MLKJVWEDFNRTPGZQXYUBICHSOA: 413, MLKJVWEDFN: 169, MLKJVW: 80, ML: 39, M: 19, L: 20, KJVW: 41, KJV: 20, K: 10, JV: 10, J: 5, V: 5, W: 21, EDFN: 89, E: 42, DFN: 47, DF: 23, D: 11, F: 12, N: 24, RTPGZQXYUBICHSOA: 244, RTPGZQXYU: 106, RT: 50, R: 25, T: 25, PGZQXYU: 56, PG: 27, P: 13, G: 14, ZQXYU: 29, ZQXY: 14, ZQX: 6, Z: 3, QX: 3, Q: 1, X: 2, Y: 8, U: 15, BICHSOA: 138, BICH: 66, BI: 32, B: 16, I: 16, CH: 34, C: 17, H: 17, SOA: 72, S: 35, OA: 37, O: 18, A: 19
+
+The code is M = 0000, L = 0001, K = 00100, J = 001010, V = 001011, W = 0011, E = 010, D = 01100, F = 01101, N = 0111, R = 1000, T = 1001, P = 10100, G = 10101, Z = 1011000, Q = 10110010, X = 10110011, Y = 101101, U = 10111, B = 11000, I = 11001, C = 11010, H = 11011, S = 1110, O = 11110, A = 11111
+
+
+File to be Encoded: ClearText.txt
+--------------------
+String 0
+The original string: Sally sells seashells by the seashore.
+Huffman Encoding for string: 11101111100010001101101111001000010001111011100101111111101101101000010001111011000101101100111011010111001011111111011011111101000010
+Space needed before Huffman Compression (bits): 304
+Space needed after Huffman Compression (bits): 134
+Space reduction of 55.92%
+
+String 1
+The original string: Peter Piper picked a peck of pickled peppers a peck of pickled peppers Peter Piper picked.
+Huffman Encoding for string: 10100010100101010001010011001101000101000101001100111010001000100110011111101000101101000100111100110110100110011101000100000101001100101000101010010100010100011101111110100010110100010011110011011010011001110100010000010100110010100010101001010001010001110101000101001010100010100110011010001010001010011001110100010001001100
+Space needed before Huffman Compression (bits): 720
+Space needed after Huffman Compression (bits): 326
+Space reduction of 54.72%
+
+String 2
+The original string: Houston, the Eagle has landed.
+Huffman Encoding for string: 11011111101011111101001111100111100111011010010111111010100010101101111111111000011111101110110001001100
+Space needed before Huffman Compression (bits): 240
+Space needed after Huffman Compression (bits): 104
+Space reduction of 56.67%
+
+String 3
+The original string: Is that your final answer?
+Huffman Encoding for string: 1100111101001110111111110011011011111010111100001101110010111111110001111110111111000110101000
+Space needed before Huffman Compression (bits): 208
+Space needed after Huffman Compression (bits): 94
+Space reduction of 54.81%
+
+
+File to be Decoded: Encoded.txt
+--------------------
+Bit String 0
+The original bit data: 01011001010110011111011011
+Huffman Decoding from bits: EIEIOH
+Space needed before Huffman Compression (bits): 48
+Space needed after Huffman Compression (bits): 26
+Space reduction of 45.83%
+
+Bit String 1
+The original bit data: 10110000101010011011101101100010110010101100010111000110111
+Huffman Decoding from bits: ZEPHYRQZULU
+Space needed before Huffman Compression (bits): 88
+Space needed after Huffman Compression (bits): 59
+Space reduction of 32.95%
+
+Bit String 2
+The original bit data: 11111110001000111111101011111011001111111000100011111000001010000001110010111
+Huffman Decoding from bits: ABRACADABRAMERLIN
+Space needed before Huffman Compression (bits): 136
+Space needed after Huffman Compression (bits): 77
+Space reduction of 43.38%
+

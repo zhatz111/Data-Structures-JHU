@@ -1,0 +1,11 @@
+AB+C-
+ABC+-
+AB-C+DEF-+$
+ABCDE-+$*EF*-
+ABC+*CBA-+*
+Error: The prefix string '/A+BC +C*BA' has too few Operaters!
+AB-C*BA+-*
+ABC-/BA-+/
+ABC+$CBA-+*
+AB-+/CBA+-/
+Error: The prefix string '*$A^BC+C-BA' has too few Operaters!

@@ -1,0 +1,17 @@
+-+ABC
+-A+BC
+$+-ABC+D-EF
+-*A$B+C-DE*EF
+**A+BC+C-BA
+/A+BC +C*BA  
+*-*-ABC+BA  
+/+/A-BC-BA  
+*$A+BC+C-BA 
+//A+B0-C+BA
+*$A^BC+C-BA					
+						
+				
+					
+					
+	
+

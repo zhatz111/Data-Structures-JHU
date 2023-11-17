@@ -1,0 +1,78 @@
+
+Huffman Tree Information (based on AdditionalFreqTable.txt)
+------------------------
+Frequency Table Provided: A: 15, B: 7, C: 4, D: 10, E: 22, F: 6, G: 3, H: 12, I: 18, J: 1, K: 2, L: 10, M: 5, N: 14, O: 18, P: 6, Q: 1, R: 12, S: 16, T: 20, U: 8, V: 2, W: 4, X: 1, Y: 2, Z: 1
+
+The tree in preorder is: TELHRFPNABCKJQSUWVYIODMXZG: 220, TELHRFP: 88, TE: 42, T: 20, E: 22, LHRFP: 46, LH: 22, L: 10, H: 12, RFP: 24, R: 12, FP: 12, F: 6, P: 6, NABCKJQSUWVYIODMXZG: 132, NABCKJQS: 60, NA: 29, N: 14, A: 15, BCKJQS: 31, BCKJQ: 15, B: 7, CKJQ: 8, C: 4, KJQ: 4, K: 2, JQ: 2, J: 1, Q: 1, S: 16, UWVYIODMXZG: 72, UWVYI: 34, UWVY: 16, U: 8, WVY: 8, W: 4, VY: 4, V: 2, Y: 2, I: 18, ODMXZG: 38, O: 18, DMXZG: 20, D: 10, MXZG: 10, M: 5, XZG: 5, XZ: 2, X: 1, Z: 1, G: 3
+
+The code is T = 000, E = 001, L = 0100, H = 0101, R = 0110, F = 01110, P = 01111, N = 1000, A = 1001, B = 10100, C = 101010, K = 1010110, J = 10101110, Q = 10101111, S = 1011, U = 11000, W = 110010, V = 1100110, Y = 1100111, I = 1101, O = 1110, D = 11110, M = 111110, X = 11111100, Z = 11111101, G = 1111111
+
+
+File to be Encoded: AdditionalText.txt
+--------------------
+String 0
+The original string: Get to the chopper!
+Huffman Encoding for string: 1111111001000000111000001010011010100101111001111011110010110
+Space needed before Huffman Compression (bits): 152
+Space needed after Huffman Compression (bits): 61
+Space reduction of 59.87%
+
+String 1
+The original string: May the Force be with you.
+Huffman Encoding for string: 111110100111001110000101001011101110011010101000110100001110010110100001011100111111011000
+Space needed before Huffman Compression (bits): 208
+Space needed after Huffman Compression (bits): 90
+Space reduction of 56.73%
+
+String 2
+The original string: I find your lack of faith disturbing.
+Huffman Encoding for string: 11010111011011000111101100111111011000011001001001101010101011011100111001110100111010000101111101101101100011000011010100110110001111111
+Space needed before Huffman Compression (bits): 296
+Space needed after Huffman Compression (bits): 137
+Space reduction of 53.72%
+
+String 3
+The original string: Ive seen things you people wouldnt believe.
+Huffman Encoding for string: 1101110011000110110010011000000010111011000111111110111100111111011000011110011110011110100001110010111011000010011110100000010100001010011010011100110001
+Space needed before Huffman Compression (bits): 344
+Space needed after Huffman Compression (bits): 154
+Space reduction of 55.23%
+
+
+File to be Decoded: AdditionalEncoded.txt
+--------------------
+Bit String 0
+The original bit data: 11011111111110100111111000111111001011110011110100111111110001111111000101101
+Huffman Decoding from bits: IGIEMEMHOPLGNGTS
+Space needed before Huffman Compression (bits): 128
+Space needed after Huffman Compression (bits): 77
+Space reduction of 39.84%
+
+Bit String 1
+The original bit data: 1100111111000011001011101000101111001100111111110000001010
+Huffman Decoding from bits: YOTWONSVPDTE
+Space needed before Huffman Compression (bits): 96
+Space needed after Huffman Compression (bits): 58
+Space reduction of 39.58%
+
+Bit String 2
+The original bit data: 1101101010100110001111011100000101110110111001010001001111010011100111
+Huffman Decoding from bits: ICANDOTHISALLDAY
+Space needed before Huffman Compression (bits): 128
+Space needed after Huffman Compression (bits): 70
+Space reduction of 45.31%
+
+Bit String 3
+The original bit data: 11011001111110110101101110100011111010011000
+Huffman Decoding from bits: IAMIRONMAN
+Space needed before Huffman Compression (bits): 80
+Space needed after Huffman Compression (bits): 44
+Space reduction of 45.00%
+
+Bit String 4
+The original bit data: 11//0110011131110v1410101106111t0100011111k01001100..0
+Huffman Decoding from bits: IAMIRONMAN
+Space needed before Huffman Compression (bits): 80
+Space needed after Huffman Compression (bits): 54
+Space reduction of 32.50%
+

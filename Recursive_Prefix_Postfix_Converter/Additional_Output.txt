@@ -1,0 +1,12 @@
+AB+C-
+ABC+-
+Error: The prefix string '--*+AB' has too many Operaters!
+Error: The prefix string '-##$%BC*C' has too few Operaters!
+Error: The prefix string '**A+BC+C-BA          6789990' has too few Operaters!
+Error: The prefix string '768-+*bca' has too few Operaters!
+Error: The prefix string '[[[BCC*-' has too few Operaters!
+Error: The prefix string '* ^ $ C Y U' has too few Operaters!
+Error: The prefix string ',..??--*RT$TUPL' has too few Operaters!
+Error: The prefix string '869403' has too few Operaters!
+Error: The prefix string '!@#$%^&*()adfghtju' has too few Operaters!
+Error: The prefix string 'AB$GGGB^&*HHHH//HHGHJKU%#@^*-+HJKDFGH' has too few Operaters!

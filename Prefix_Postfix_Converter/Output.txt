@@ -1,0 +1,11 @@
+AB+C-
+ABC+-
+AB-C+DEF-+$
+ABCDE-+$*EF*-
+ABC+*CBA-+*
+CBA*+ABC+/
+AB-C*BA+-
+ABC-/BA-+
+ABC+$CBA-+*
+ABCBA+-+/
+ABC^$CBA-+*
